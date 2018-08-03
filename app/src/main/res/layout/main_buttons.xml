@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:padding="@dimen/mainButtonsRootPadding"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/sevenB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/seven"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/eightB"
+        app:layout_constraintBottom_toTopOf="@+id/fourB" />
+
+    <Button
+        android:id="@+id/eightB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/eight"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintTop_toTopOf="@+id/sevenB"
+        app:layout_constraintStart_toEndOf="@+id/sevenB"
+        app:layout_constraintEnd_toStartOf="@+id/nineB"
+        app:layout_constraintBottom_toBottomOf="@+id/sevenB" />
+
+    <Button
+        android:id="@+id/nineB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/nine"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintTop_toTopOf="@+id/sevenB"
+        app:layout_constraintStart_toEndOf="@+id/eightB"
+        app:layout_constraintEnd_toStartOf="@+id/divisionIB"
+        app:layout_constraintBottom_toBottomOf="@+id/sevenB" />
+
+    <ImageButton
+        android:id="@+id/divisionIB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@mipmap/ic_divi"
+        android:background="@drawable/side_ripple_effect"
+        app:layout_constraintBottom_toBottomOf="@+id/sevenB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/nineB"
+        app:layout_constraintTop_toTopOf="@+id/sevenB" />
+
+    <Button
+        android:id="@+id/fourB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/four"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintTop_toBottomOf="@+id/sevenB"
+        app:layout_constraintStart_toStartOf="@+id/sevenB"
+        app:layout_constraintEnd_toEndOf="@+id/sevenB"
+        app:layout_constraintBottom_toTopOf="@+id/oneB" />
+
+    <Button
+        android:id="@+id/fiveB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/five"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintTop_toTopOf="@+id/fourB"
+        app:layout_constraintStart_toEndOf="@+id/fourB"
+        app:layout_constraintEnd_toStartOf="@+id/sixB"
+        app:layout_constraintBottom_toBottomOf="@+id/fourB" />
+
+    <Button
+        android:id="@+id/sixB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/six"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintTop_toTopOf="@+id/fourB"
+        app:layout_constraintStart_toEndOf="@+id/fiveB"
+        app:layout_constraintEnd_toStartOf="@+id/multiplicationIB"
+        app:layout_constraintBottom_toBottomOf="@+id/fourB" />
+
+    <ImageButton
+        android:id="@+id/multiplicationIB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@mipmap/ic_multi"
+        android:background="@drawable/side_ripple_effect"
+        app:layout_constraintBottom_toBottomOf="@+id/fourB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/sixB"
+        app:layout_constraintTop_toTopOf="@+id/fourB" />
+
+    <Button
+        android:id="@+id/oneB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/one"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintTop_toBottomOf="@+id/fourB"
+        app:layout_constraintStart_toStartOf="@+id/sevenB"
+        app:layout_constraintEnd_toEndOf="@+id/sevenB"
+        app:layout_constraintBottom_toTopOf="@+id/dotB" />
+
+    <Button
+        android:id="@+id/twoB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/two"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintTop_toTopOf="@+id/oneB"
+        app:layout_constraintStart_toEndOf="@+id/oneB"
+        app:layout_constraintEnd_toStartOf="@+id/threeB"
+        app:layout_constraintBottom_toBottomOf="@+id/oneB" />
+
+    <Button
+        android:id="@+id/threeB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/three"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintTop_toTopOf="@+id/oneB"
+        app:layout_constraintStart_toEndOf="@+id/twoB"
+        app:layout_constraintEnd_toStartOf="@+id/subtractionIB"
+        app:layout_constraintBottom_toBottomOf="@+id/oneB" />
+
+    <ImageButton
+        android:id="@+id/subtractionIB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@mipmap/ic_subi"
+        android:background="@drawable/side_ripple_effect"
+        app:layout_constraintBottom_toBottomOf="@+id/oneB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/threeB"
+        app:layout_constraintTop_toTopOf="@+id/oneB" />
+
+    <Button
+        android:id="@+id/dotB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/dot"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintTop_toBottomOf="@+id/oneB"
+        app:layout_constraintStart_toStartOf="@+id/sevenB"
+        app:layout_constraintEnd_toEndOf="@+id/sevenB"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <Button
+        android:id="@+id/zeroB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/zero"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintTop_toTopOf="@+id/dotB"
+        app:layout_constraintStart_toEndOf="@+id/dotB"
+        app:layout_constraintEnd_toStartOf="@+id/equalB"
+        app:layout_constraintBottom_toBottomOf="@+id/dotB" />
+
+    <Button
+        android:id="@+id/equalB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/equal"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="@dimen/mainButtonsEqualTopMargin"
+        android:layout_marginBottom="@dimen/mainButtonsEqualTopMargin"
+        android:layout_marginStart="@dimen/mainButtonsEqualStartMargin"
+        android:layout_marginEnd="@dimen/mainButtonsEqualStartMargin"
+        android:background="@drawable/equal_ripple_effect"
+        app:layout_constraintTop_toTopOf="@+id/dotB"
+        app:layout_constraintStart_toEndOf="@+id/zeroB"
+        app:layout_constraintEnd_toStartOf="@+id/additionIB"
+        app:layout_constraintBottom_toBottomOf="@+id/dotB" />
+
+    <ImageButton
+        android:id="@+id/additionIB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@mipmap/ic_addi"
+        android:background="@drawable/side_ripple_effect"
+        app:layout_constraintBottom_toBottomOf="@+id/dotB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/equalB"
+        app:layout_constraintTop_toTopOf="@+id/dotB" />
+
+</android.support.constraint.ConstraintLayout>

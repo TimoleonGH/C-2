@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/cardSevenB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/seven"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cardEightB"
+        app:layout_constraintBottom_toTopOf="@+id/cardFourB" />
+
+    <Button
+        android:id="@+id/cardEightB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/eight"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintTop_toTopOf="@+id/cardSevenB"
+        app:layout_constraintStart_toEndOf="@+id/cardSevenB"
+        app:layout_constraintEnd_toStartOf="@+id/cardNineB"
+        app:layout_constraintBottom_toBottomOf="@+id/cardSevenB" />
+
+    <Button
+        android:id="@+id/cardNineB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/nine"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintTop_toTopOf="@+id/cardSevenB"
+        app:layout_constraintStart_toEndOf="@+id/cardEightB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/cardSevenB" />
+
+    <Button
+        android:id="@+id/cardFourB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/four"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintTop_toBottomOf="@+id/cardSevenB"
+        app:layout_constraintStart_toStartOf="@+id/cardSevenB"
+        app:layout_constraintEnd_toEndOf="@+id/cardSevenB"
+        app:layout_constraintBottom_toTopOf="@+id/cardOneB" />
+
+    <Button
+        android:id="@+id/cardFiveB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/five"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintTop_toTopOf="@+id/cardFourB"
+        app:layout_constraintStart_toEndOf="@+id/cardFourB"
+        app:layout_constraintEnd_toStartOf="@+id/cardSixB"
+        app:layout_constraintBottom_toBottomOf="@+id/cardFourB" />
+
+    <Button
+        android:id="@+id/cardSixB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/six"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintTop_toTopOf="@+id/cardFourB"
+        app:layout_constraintStart_toEndOf="@+id/cardFiveB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/cardFourB" />
+
+    <Button
+        android:id="@+id/cardOneB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/one"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintTop_toBottomOf="@+id/cardFourB"
+        app:layout_constraintStart_toStartOf="@+id/cardSevenB"
+        app:layout_constraintEnd_toEndOf="@+id/cardSevenB"
+        app:layout_constraintBottom_toTopOf="@+id/cardDotB" />
+
+    <Button
+        android:id="@+id/cardTwoB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/two"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintTop_toTopOf="@+id/cardOneB"
+        app:layout_constraintStart_toEndOf="@+id/cardOneB"
+        app:layout_constraintEnd_toStartOf="@+id/cardThreeB"
+        app:layout_constraintBottom_toBottomOf="@+id/cardOneB" />
+
+    <Button
+        android:id="@+id/cardThreeB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/three"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintTop_toTopOf="@+id/cardOneB"
+        app:layout_constraintStart_toEndOf="@+id/cardTwoB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/cardOneB" />
+
+    <Button
+        android:id="@+id/cardDotB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/dot"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintTop_toBottomOf="@+id/cardOneB"
+        app:layout_constraintStart_toStartOf="@+id/cardSevenB"
+        app:layout_constraintEnd_toEndOf="@+id/cardSevenB"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <Button
+        android:id="@+id/cardZeroB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/zero"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintTop_toTopOf="@+id/cardDotB"
+        app:layout_constraintStart_toEndOf="@+id/cardDotB"
+        app:layout_constraintEnd_toStartOf="@+id/cardThreeB"
+        app:layout_constraintBottom_toBottomOf="@+id/cardDotB" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/cardInfoFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_addi"
+        app:fabSize="normal"
+        android:adjustViewBounds="true"
+        app:layout_constraintTop_toTopOf="@+id/cardDotB"
+        app:layout_constraintStart_toEndOf="@+id/cardZeroB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/cardDotB" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/infoCL"
+        android:background="@color/colorAccent"
+
+        android:visibility="invisible"
+        android:elevation="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" >
+
+        <TextView
+            android:id="@+id/infoTitleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/infoTitleMargin"
+            android:text="@string/infoTitle"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/infoTitleTextSize"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/infoTV"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:padding="@dimen/infoTextPadding"
+            android:text="@string/info"
+            android:textColor="@color/colorWhite2"
+            android:textSize="@dimen/infoTextSize"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardBackIB" />
+
+        <ImageButton
+            android:id="@+id/cardBackIB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/backButtonMargin"
+            android:layout_marginTop="@dimen/backButtonMargin"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@mipmap/ic_multi"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

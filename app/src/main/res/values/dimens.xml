@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_radius_large">100dp</dimen>
+    <dimen name="cursor_radius">20dp</dimen>
+    <dimen name="button_text_size">26sp</dimen>
+    <dimen name="side_button_text_size">18sp</dimen>
+    <dimen name="button_padding">16dp</dimen>
+    <dimen name="ripple_padding">64dp</dimen>
+    <dimen name="edit_text_padding">38dp</dimen>
+    <dimen name="output_text_size">26sp</dimen>
+    <dimen name="input_text_size">38sp</dimen>
+    <dimen name="edit_text_input_padding">18sp</dimen>
+    <dimen name="output_elevation">2dp</dimen>
+    <dimen name="infoTextSize">14sp</dimen>
+    <dimen name="backButtonMargin">16dp</dimen>
+    <dimen name="infoTitleTextSize">20sp</dimen>
+    <dimen name="infoTextPadding">16dp</dimen>
+    <dimen name="infoTitleMargin">16dp</dimen>
+    <dimen name="mainButtonsRootPadding">20dp</dimen>
+    <dimen name="mainButtonsEqualTopMargin">20dp</dimen>
+    <dimen name="mainButtonsEqualStartMargin">15dp</dimen>
+    <dimen name="spinnerTextSize">18sp</dimen>
+    <dimen name="outputCLHeight">220dp</dimen>
+</resources>
